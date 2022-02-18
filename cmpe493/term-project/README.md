@@ -10,19 +10,19 @@ In this project, we have implemented some different information retrieval models
 
 We have applied following steps in order to process the raw data:
 
-1 - **Mark-up removal:** Removing HTML tags from the content
-2 - **Tokenization:** Splitting the content into words using whitespace as delimiter
-3 - **Punctuation removal**
-4 - **Lowercasing**
-5 - **Stop-word removal:** Stopwords feature of python nltk library and built-in function of TfidfVectorizer
-6 - **Removing duplicates:** Rows with duplicate document ids are removed from the data set
+1. **Mark-up removal:** Removing HTML tags from the content
+2. **Tokenization:** Splitting the content into words using whitespace as delimiter
+3. **Punctuation removal**
+4. **Lowercasing**
+5. **Stop-word removal:** Stopwords feature of python nltk library and built-in function of TfidfVectorizer
+6. **Removing duplicates:** Rows with duplicate document ids are removed from the data set
 
 ## Ranking Algorithms (Document Scoring Methods)
 
 We have tried the following statistical measures that evaluates how relevant a query is to a document in a collection of documents (i.e., retrieve relevant documents to a query from the Covid-19 related scientific literature) 
 
-1 - TF-IDF + Cosine Similarity
-2 - BM25
+1. TF-IDF + Cosine Similarity
+2. BM25
 
 ## Additional Research
 
@@ -49,6 +49,6 @@ We have tried the following statistical measures that evaluates how relevant a q
 
 ## References
 
-1 - https://ir.nist.gov/covidSubmit/
-2 - Schoegje, Thomas, Chris Kamphuis, Koen Dercksen, Djoerd Hiemstra, Toine Pieters, and Arjen de Vries. 2020. “Exploring Term Expansion for Task-Based Retrieval at the TREC-COVID Track.” ArXiv:2010.12674 [Cs], October. http://arxiv.org/abs/2010.12674.
-3 - https://scispacy.apps.allenai.org/
+1. https://ir.nist.gov/covidSubmit/
+2. Schoegje, Thomas, Chris Kamphuis, Koen Dercksen, Djoerd Hiemstra, Toine Pieters, and Arjen de Vries. 2020. “Exploring Term Expansion for Task-Based Retrieval at the TREC-COVID Track.” ArXiv:2010.12674 [Cs], October. http://arxiv.org/abs/2010.12674.
+3. https://scispacy.apps.allenai.org/
