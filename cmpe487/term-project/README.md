@@ -1,5 +1,12 @@
 # Online Connect Four Game
-In this project, we have implemented an online Connect Four Game.
+
+<img width="251" class="center" alt="Screen Shot 2022-02-18 at 23 01 17" src="https://user-images.githubusercontent.com/35606355/154753397-24c662a3-81b1-4e6d-8650-0438e2fd29ae.png">
+
+In this project, we have implemented an online version of the famous Connect Four Game. Users can also chat with each other while playing the game!
+
+## Network Fundamentals
+
+The project is implemented using python's socket library and designed as client-server model. The packages between users (i.e., chat messages and game actions) are sent/received with both TCP and UDP.
 
 ## Required packages
  | package | version |
