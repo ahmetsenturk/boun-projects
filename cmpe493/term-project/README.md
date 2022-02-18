@@ -30,6 +30,10 @@ We have tried the following statistical measures that evaluates how relevant a q
 
 - **Document clustering:** We have clustered documents to let the  documents in the same clusters have closer cosine similarity scores. This approach has reduced the performance remarkably
 
+## Team
+- Me, [Ahmet Şentürk](https://github.com/ahmetsenturk/), and my friends [Ahmet Yiğit Gedik](https://github.com/ahmetyigitgedik) and [Yaşar Selçuk Çalışkan](https://github.com/yscaliskan)
+completed this project together. 
+
 
 ## Notebooks and Files
 
